@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background: #FFFFFF26;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(./zakaz.png);
+      backdrop-filter: blue (50px)
+}
+
+  .label_wrapper{
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+  
+  .form-container {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px black;
+      text-align: center;
+  }
+  
+  h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+  }
+  
+  
+  input, textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid white;
+      border-radius: 5px;
+      outline: none;
+  }
+  
+  input:focus, textarea:focus {
+      border-color: #a96bff;
+  }
+  
+  
+  button {
+      margin-top: 10px;
+      background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      
+  }
+  input{
+      width: 300px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  @media (max-width: 1010px) {
+    .label_wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input{
+        width: 600px;
+    }
+  }
